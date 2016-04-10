@@ -1,6 +1,11 @@
 //esconder el mensaje
-jQuery(".advertencia").hide();
+function enviarAdvertencia()
+{
+jQuery(".advertencia").hide().show("slow");
+}
 
 // mostrar el mensaje lentamente usando atajo $
 
-$(".advertencia").show("slow");
+//$(".advertencia").show("slow");
+
+$(document).ready(enviarAdvertencia);
