@@ -1,11 +1,13 @@
-//esconder el mensaje
+$(".spoiler span").hide();
+$(".spoiler").append("<button>mostrar spoiler!</button>");
+$(".spoiler button").click(function()
+{
+	$(".spoiler span").show();
+	$(this).remove();
+})
+
 function enviarAdvertencia()
 {
-jQuery(".advertencia").hide().show("slow");
+	jQuery(".spoiler").hide().show("slow");
 }
-
-// mostrar el mensaje lentamente usando atajo $
-
-//$(".advertencia").show("slow");
-
 $(document).ready(enviarAdvertencia);

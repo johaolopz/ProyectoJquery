@@ -8,9 +8,22 @@ body
 	text-align: center;
 }
 
-.advertencia
+img{
+max-width: 10%;
+}
+
+.spoiler
 {
-	color: white;
-	font-size: 1.75em;
+	text-align: center;	
+}
+
+span{
+	color:white;
+}
+
+h1
+{
+	color:white;
+	font-size: 10;
 	text-align: center;
 }
